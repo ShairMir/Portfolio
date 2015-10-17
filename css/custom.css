@@ -1,0 +1,148 @@
+body { 
+	/*padding-top: 50px; */
+	font-family: 'Martel', serif;
+	position: relative;
+}
+
+body p {
+	line-height: 1.6;
+}
+
+.fa {
+	padding-right: 5px;
+}
+
+div.background_intro h1,
+section.about-section h1,
+.caption h3,
+section.contact-section h1 {
+	font-family: 'Indie Flower', cursive;
+}
+
+/* /////// 1 Navigation Bar \\\\\\\\\ */
+
+.navbar {
+	background-color: #2C3E50; 
+}
+
+.navbar-default {
+	border: none;
+}
+
+.navbar-header a.navbar-brand {
+	color: white;
+	font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav li a  {
+	color: white;
+	font-size: 1.2em;
+	border-bottom: 3px solid transparent;
+}
+
+/* Link Visit Hover Active */
+
+.navbar-default .navbar-nav li a:hover {
+	color: white;
+	border-bottom: 3px solid white;
+}
+
+.navbar-header .navbar-brand:hover {
+	color: white;	
+}
+
+/* /////// 2 Intro \\\\\\\\\ */
+
+.background_intro {
+	/*background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/7BY01H9BDT.jpg') no-repeat center center fixed;*/
+	background: url("../images/smallcity.jpg") no-repeat bottom center fixed;
+    background-size: cover;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+	background-color: transparent;
+	color: white;
+	padding: 150px 0;
+}
+
+.jumbotron div ul li a {
+	font-size: 1.2em;
+}
+
+hr {
+	margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 5px solid #eee;
+    border-radius: 5px;
+    width: 65%;
+}
+
+/* /////// 3 About Me \\\\\\\\\ */
+
+.about-section {
+	background-color: white;
+}
+
+.about-section div.container {
+	padding: 25px 0px;
+}
+
+/*.profile_picture {
+	padding-top: 75px;
+}*/
+
+/* /////// 4 Portfolio Section \\\\\\\\\ */
+
+.portfolio-section {
+	padding-top: 20px;
+	background-color: #E74C3C;
+}
+
+/* /////// 5 Contact-section \\\\\\\\\ */
+
+.contact-section {
+	padding: 10px 0px;
+}
+
+.contact-section div a {
+	color: black;
+}
+
+.form-group-lg {
+	padding: 5px;
+}
+
+textarea {
+	resize: vertical;
+}
+
+section div.container input.form-control,
+section div.container textarea.form-control {
+	padding-top: 18px;
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	box-shadow: none;
+}
+
+.contact-section p,
+.contact-section a {
+	font-size: 1.5em;
+}
+
+/* /////// 6 Footer \\\\\\\\\ */
+
+footer {
+	padding-top: 10px;
+	background-color: #2C3E50;
+	color: white;
+}
+
+/********Temporary**********/
+
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
