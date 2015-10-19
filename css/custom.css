@@ -54,7 +54,7 @@ section.contact-section h1 {
 
 .navbar-default .navbar-nav li a:hover {
 	color: white;
-	border-bottom: 3px solid white;
+	font-size: 1.5em;
 }
 
 /* /////// 2 Intro \\\\\\\\\ */
@@ -95,9 +95,9 @@ hr {
 	padding: 25px 0px;
 }
 
-/*.profile_picture {
-	padding-top: 75px;
-}*/
+.profile_picture {
+	padding-top: 25px;
+}
 
 /* /////// 4 Portfolio Section \\\\\\\\\ */
 
@@ -120,6 +120,15 @@ hr {
 	padding: 5px;
 }
 
+.contact-section a {
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+.contact-section a:hover {
+	font-size: 1.4em;
+}
+
 textarea {
 	resize: vertical;
 }
@@ -130,20 +139,6 @@ section div.container textarea.form-control {
 	background-color: #F2F2F2;
 	border: 1px solid #F2F2F2;
 	box-shadow: none;
-}
-
-.form-control:-ms-input-placeholder, /* Internet Explorer 10-11 */
-.form-control::-moz-placeholder, /* Mozilla Firefox 19+ */
-.form-control:-moz-placeholder, /* Mozilla Firefox 4 to 18 */
-.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: black;
-    opacity: 1;
-}
-
-.contact-section p,
-.contact-section a {
-	font-size: 1.5em;
-	text-decoration: none;
 }
 
 /* /////// 6 Footer \\\\\\\\\ */
