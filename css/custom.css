@@ -37,10 +37,11 @@ section.contact-section h1 {
 .navbar-default .navbar-nav li a  {
 	color: white;
 	font-size: 1.2em;
-	border-bottom: 3px solid transparent;
 }
 
-/*Changing the active style for nav bar when scrolling*/
+/* styling for LVHA */
+
+/*--Changing scrolling style for nav--*/
 
 .navbar-default .navbar-nav .active a,
 .navbar-default .navbar-nav .active a:focus,
@@ -50,7 +51,10 @@ section.contact-section h1 {
 	font-size: 1.5em !important;
 }
 
-/* Link Visit Hover Active */
+.navbar-header a.navbar-brand:hover,
+.navbar-header a.navbar-brand:visited {
+	color: white;
+}
 
 .navbar-default .navbar-nav li a:hover {
 	color: white;
