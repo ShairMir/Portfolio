@@ -113,8 +113,8 @@ hr {
 	background-color: #E74C3C;
 }
 
-.portfolio-section .thumbnail:hover {
-
+.portfolio-section img:hover {
+	opacity: 0.5;
 }
 
 /* /////// 5 Contact-section \\\\\\\\\ */
@@ -141,6 +141,11 @@ hr {
 	opacity: 0.7;
 }
 
+.form-control::-webkit-input-placeholder { color: black; }
+.form-control:-moz-placeholder { color: black; }
+.form-control::-moz-placeholder { color: black; }
+.form-control:-ms-input-placeholder { color: black; }
+
 textarea {
 	resize: vertical;
 }
@@ -151,6 +156,14 @@ section div.container textarea.form-control {
 	background-color: #F2F2F2;
 	border: 1px solid #F2F2F2;
 	box-shadow: none;
+}
+
+section div.container input.form-control:focus,
+section div.container textarea.form-control:focus,
+section div.container input.form-control:active,
+section div.container textarea.form-control:active {
+	border: 1px solid black;
+	color: black;
 }
 
 /* /////// 6 Footer \\\\\\\\\ */
@@ -175,7 +188,7 @@ footer {
 	}
 
 	.background_intro {
-		background: url("../images/smallcity.jpg") no-repeat bottom right fixed;
+		background: url("../images/smallcity.jpg") no-repeat bottom center fixed;
     	background-size: cover;
 	}
 	
