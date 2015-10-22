@@ -141,10 +141,10 @@ hr {
 	opacity: 0.7;
 }
 
-.form-control::-webkit-input-placeholder { color: black; }
-.form-control:-moz-placeholder { color: black; }
-.form-control::-moz-placeholder { color: black; }
-.form-control:-ms-input-placeholder { color: black; }
+.form-control::-webkit-input-placeholder { color: grey; }
+.form-control:-moz-placeholder { color: grey; }
+.form-control::-moz-placeholder { color: grey; }
+.form-control:-ms-input-placeholder { color: grey; }
 
 textarea {
 	resize: vertical;
