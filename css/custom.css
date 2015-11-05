@@ -113,8 +113,12 @@ hr {
 	background-color: #E74C3C;
 }
 
+.portfolio-section img {
+	border-radius: 3px;
+}
+
 .portfolio-section img:hover {
-	opacity: 0.5;
+	opacity: 0.8;
 }
 
 /* /////// 5 Contact-section \\\\\\\\\ */
